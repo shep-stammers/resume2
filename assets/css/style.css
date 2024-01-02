@@ -1,7 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*---------------------------------Special paddnig/margins/text */
 
-/*---------------------------------color*/
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+
+.general-sub{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+inline-block {
+    display: inline-block;
+}
+
+
+/*---------------------------------color */
 .bg-color-name-title{
     background-color: #676767;
 }
@@ -22,7 +43,7 @@ background-color: #e76e22;
     background-color: #525252;
     }
 
-/*---------------------------------header*/
+/*---------------------------------header */
 header{
     margin: 0;
 }
@@ -106,10 +127,21 @@ transition: all 0.5s ease-in-out;
     letter-spacing: 2px;
 }
 
-/*---------------------------------hover*/
+/*---------------------------------hover */
+
 
 .hvr-sweep-to-bottom:before {
     background-color: rgba(0, 0, 0, 0.2);
     height: 120px;
 
+}
+
+
+/*---------------------------------footer*/
+
+footer{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
