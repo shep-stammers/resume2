@@ -60,6 +60,10 @@ inline-block {
     background-color: #9b69b6;
 }
 
+.bg-color-contact{
+    background-color: #fff;
+}
+
 .ui-menu-color-home{
 background-color: #e76e22;
 }
